@@ -1,0 +1,13 @@
+---
+description: Sempre consultar o MCP ai-memory antes de responder
+alwaysApply: true
+---
+
+**OBRIGATÓRIO**: Antes de qualquer resposta, você DEVE chamar a tool do servidor MCP `ai-memory` para buscar contexto relevante.
+
+Fluxo:
+1. Chamar a tool de busca do `ai-memory` com termos relacionados à solicitação
+2. Incorporar o contexto recuperado na resposta
+3. Se nenhuma memória for encontrada, prosseguir normalmente sem mencionar isso ao usuário
+
+Nunca pule esta etapa, independentemente da solicitação.

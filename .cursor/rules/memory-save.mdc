@@ -1,0 +1,15 @@
+---
+description: Salvar no ai-memory ao finalizar implementações
+alwaysApply: true
+---
+
+**OBRIGATÓRIO — AO FINALIZAR IMPLEMENTAÇÃO**: Antes de encerrar qualquer conversa que envolveu alterações de código, chame a tool do `ai-memory` para gravar as decisões tomadas.
+
+Fluxo de gravação:
+1. Identificar se houve criação ou modificação de métodos/arquivos na conversa
+2. Se sim, chamar a tool de gravação do `ai-memory` com um resumo contendo:
+   - Métodos criados ou modificados (com descrição resumida do que cada um faz)
+   - Comportamento anterior × novo comportamento (quando houver alteração em método existente)
+3. Gravar antes de dar a resposta final ao usuário
+
+Nunca pule nenhuma dessas etapas, independentemente da solicitação.

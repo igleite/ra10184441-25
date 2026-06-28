@@ -1,0 +1,15 @@
+EXEC ('CREATE SCHEMA [app] AUTHORIZATION [dbo]')
+GO
+
+EXEC ('CREATE SCHEMA [identity] AUTHORIZATION [dbo]')
+GO
+
+EXEC ('CREATE SCHEMA [feature_flags] AUTHORIZATION [dbo]')
+GO
+
+EXEC ('CREATE SCHEMA [tenants] AUTHORIZATION [dbo]')
+GO
+
+EXEC ('CREATE SCHEMA [tickets] AUTHORIZATION [dbo]')
+GO
+

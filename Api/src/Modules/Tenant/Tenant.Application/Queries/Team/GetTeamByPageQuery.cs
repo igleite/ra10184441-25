@@ -1,0 +1,7 @@
+using BuildingBlocks.Application.DTOs;
+using BuildingBlocks.Application.Interfaces.Query;
+using Tenant.Application.DTOs;
+
+namespace Tenant.Application.Queries.Team;
+
+public record GetTeamByPageQuery(Guid OrganizationId, int PageIndex, int PageSize) : IQuery<PageDto<TeamDto>>;
